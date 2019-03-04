@@ -1,0 +1,28 @@
+1、id   wd.findElement(By.id("kw"))
+2、name  wd.findElement(By.name("wd"))
+3、linkText  针对与<a>标签  
+ wd.findElement(By.linkText("新闻"))
+4、部分链接  针对与<a>标签   
+ wd.findElement（By.partialLinkText  ("新"))）
+5、className 太容易重复，不建议使用
+6、tagName 也容易重复，建议使用h5元素，例如<button 
+7、xpath 
+By.xpath("//div[@id='aa']/input[@type='submit']"
+xpath By.xpath("//input[@type='submit']"
+<input class="sub" type="submit" value=" ">
+如果id是变化的，建议使用starts-with
+By.xpath(“//iframe[starts-with(@id,‘xhe’)]”)
+By.xpath(“//iframe[contains(@id,‘xhe’)]”)
+By.xpath("//---/span[text()='添加影片信息'])
+By.xpath("//---/span[contains(text(),'添加影片')])
+8、css
+
+常见的报错信息
+org.openqa.selenium.NoSuchElementException
+元素不存在
+1）查看定位方式是不是错了，单词写错了
+2）是不是有多个窗口，需要进行切换窗口
+
+
+
+
