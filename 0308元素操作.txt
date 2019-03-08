@@ -1,0 +1,41 @@
+1、table的获取
+1）把table的单元格的文本信息输出
+思路：找到table，获取所有的行，遍历每一行，获取所有的单元格
+把单元格的信息进行遍历输出
+2）获取第二行第二列的单元格信息
+借助ff的查询元素，复制->xpath
+By.xpath("//table/tbody/tr[2]/td[2]"))
+3）对某个单元格的元素进行操作
+wd.findElement(By.xpath("//td[contains(text(),'第三行第二')]/input[2]"));
+2、多窗口的切换操作
+Set<String> windows = wd.getWindowHandles();
+		for (String s : windows) {
+			String t=wd.switchTo().window(s).getTitle();
+			boolean flag = t.contains("My Movie");
+			System.out.println(flag);
+			if (flag) {
+				wd.findElement(By.name("key")).sendKeys("hello");
+			}
+
+		}
+
+3、元素操作
+
+文本框、单选、复选，都是用WebElement来进行操作
+sendKeys输入
+click点击
+type="file" 上传功能，直接用sendKeys输入
+
+
+复选框可以用遍历的方式全选
+下拉列表框 需要 Select s =new Select(WebElement element)来获取
+以下三种方式进行选择
+	s.selectByIndex(3);//索引位置从0开始计算
+	s.selectByValue("pear");//属性value
+	s.selectByVisibleText("1苹果");//显示出的内容
+
+NoSuchElementException
+1、是不是定位错了
+2、是不是存在多个窗口,需要用switchTo().window(s)切换窗口
+3、页面还没有加载完成，需要Thread.sleep()等待
+
