@@ -1,4 +1,4 @@
-1、table的获取
+﻿1、table的获取
 1）把table的单元格的文本信息输出
 思路：找到table，获取所有的行，遍历每一行，获取所有的单元格
 把单元格的信息进行遍历输出
@@ -34,8 +34,4 @@ type="file" 上传功能，直接用sendKeys输入
 	s.selectByValue("pear");//属性value
 	s.selectByVisibleText("1苹果");//显示出的内容
 
-NoSuchElementException
-1、是不是定位错了
-2、是不是存在多个窗口,需要用switchTo().window(s)切换窗口
-3、页面还没有加载完成，需要Thread.sleep()等待
 

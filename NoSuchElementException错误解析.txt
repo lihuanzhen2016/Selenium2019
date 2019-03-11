@@ -1,0 +1,19 @@
+
+NoSuchElementException
+1、是不是定位错了
+2、是不是存在多个窗口,需要用switchTo().window(s)切换窗口
+3、页面还没有加载完成，需要Thread.sleep()等待
+4、是不是在子页面中，存在<frame> 或者 <iframe>，回到主页面时，需要调用
+driver.switchTo().defaultContent();
+5、页面太长，所寻找的元素，不在屏幕中，需要用滚轮或者向下键
+	Actions action =new Actions(driver);
+	for(int i=0;i<100;i++) {
+			action.sendKeys(Keys.DOWN).perform();
+		}
+6、建议用tab，从上一个元素开始找
+
+悬浮
+向下键
+
+
+

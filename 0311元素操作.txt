@@ -1,0 +1,23 @@
+1、对话框（做删除操作，会使用到）
+		Alert alert= driver.switchTo().alert();
+		alert.getText()//用来做断言/检查点
+		alert.accept()
+		alert.dismiss();
+		
+2、嵌套页面 （富文本框的操作，个人简介）
+参数可以是id或者name，如果没有id，name，建议用索引的方式driver.switchTo().frame(1)
+driver.switchTo().frame("xhe0_iframe");
+driver.switchTo().defaultContent();//离开子页面，回到主页面
+注意：循环添加时，可能存在iframe的id是变化，建议采用starts-with来定位frame
+3、键盘鼠标事件
+tab enter 向下键(页面很长，需要找下面的元素，滚轮) ，移到光标的位置
+
+Actions action =new Actions(driver);
+		action.sendKeys(Keys.TAB).perform();
+		action.sendKeys(Keys.ENTER).perform();
+		action.sendKeys(Keys.DOWN).perform();
+
+			action.moveToElement(driver.findElement(By.linkText("设置"))).perform();
+			
+				action.clickAndHold().moveByOffset(600, 200).release().perform();
+				跳出div
