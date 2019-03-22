@@ -6,7 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -28,10 +27,7 @@ public class ScreenShotDeno {
 		driver.get("http://localhost:8032/Mymovie/");
 //		driver.get("	file:///D:/upupw32/htdocs/test/AddRecord.html");
 //
-		// 把浏览器截屏保存到file对象中
-		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		// file对象转变为一个image
-		Files.copy(source, new File("D:\\demo\\12.jpg"));
+
 
 //		WebDriverWait wait =new WebDriverWait(driver, 5);
 //		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("登11录")));
@@ -43,23 +39,14 @@ public class ScreenShotDeno {
 
 	}
 
-	public void screenShot() {
+	public void screenShot() throws IOException {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd-HHmmss");
 		String nowDateTime = sdf.format(new Date());
 
 		File s_file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		try {
-			Files.copy(s_file, new File("D:\\demo\\" + nowDateTime + ".jpg"));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		Files.copy(s_file, new File("D:\\demo\\" + nowDateTime + ".jpg"));
+	
 	}
 
-	public void sreenshot(String f_name) {
-		// 把浏览器截屏保存到file对象中
-		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		// file对象转变为一个image
-		Files.copy(source, new File("D:\\demo\\12.jpg"));
-	}
 
 }
