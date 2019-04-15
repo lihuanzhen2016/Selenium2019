@@ -43,10 +43,9 @@ public class TxtDataProvider {
 			data = new Object[datalist.size()][];
 			for (int i = 0; i < datalist.size(); i++) {
 				
-				for (int j = 0; j < cols; j++) {
+			
 					data[i]=datalist.get(i);
-				}
-			}
+				}			}
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
