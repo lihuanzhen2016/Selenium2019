@@ -45,7 +45,7 @@ public class TxtDataProvider {
 				
 			
 					data[i]=datalist.get(i);
-				}			}
+							}
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
