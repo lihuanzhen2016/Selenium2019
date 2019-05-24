@@ -1,0 +1,7 @@
+普通测试类（@Test）
+监听器类（extends TestListerAdapter）
+onFinish()
+1、统计失败的测试用例的方法
+2、作为正文进行发送邮件
+发送邮件类
+把接收者的邮箱，配置属性文件中
