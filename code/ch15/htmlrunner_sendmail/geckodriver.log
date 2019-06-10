@@ -1,0 +1,130 @@
+1539846382544	geckodriver	INFO	geckodriver 0.19.0
+1539846382574	geckodriver	INFO	Listening on 127.0.0.1:17185
+1539846385634	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\Personal\\Temp\\rust_mozprofile.KERKnx1HVpLR"
+1539846386735	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1539846387855	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\think\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15592] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15592] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539846391810	Marionette	INFO	Listening on port 17196
+1539846392037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539846392125	Marionette	DEBUG	Register listener.js for window 4294967297
+1539846392346	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1539846393874	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1539846393875	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1539846394158	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846394189	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846394374	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846395602	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846395602	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846395821	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846396156	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846399189	Marionette	INFO	New connections will no longer be accepted
+1539846516679	geckodriver	INFO	geckodriver 0.19.0
+1539846516709	geckodriver	INFO	Listening on 127.0.0.1:17277
+1539846519769	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\Personal\\Temp\\rust_mozprofile.ohkGISiZbTEq"
+1539846520254	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1539846521248	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\think\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15880] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15880] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539846525025	Marionette	INFO	Listening on port 17285
+1539846525147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539846525209	Marionette	DEBUG	Register listener.js for window 4294967297
+1539846525351	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1539846526613	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1539846526613	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1539846526945	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846527021	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846527253	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846528155	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846528156	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846528594	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846528640	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846531818	Marionette	INFO	New connections will no longer be accepted
+1539846646331	geckodriver	INFO	geckodriver 0.19.0
+1539846646361	geckodriver	INFO	Listening on 127.0.0.1:17360
+1539846649452	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\Personal\\Temp\\rust_mozprofile.EiGWInL2kqJo"
+1539846649919	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1539846650935	Marionette	INFO	Enabled via --marionette
+1539846654476	Marionette	INFO	Listening on port 17368
+1539846654810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539846654878	Marionette	DEBUG	Register listener.js for window 4294967297
+1539846655044	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1539846656434	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1539846656435	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1539846656692	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846656759	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846656959	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846657874	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846657875	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846658169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846658559	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846661599	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\think\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15404] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539846734798	geckodriver	INFO	geckodriver 0.19.0
+1539846734828	geckodriver	INFO	Listening on 127.0.0.1:17440
+1539846737888	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\Personal\\Temp\\rust_mozprofile.Ktavvi9d7YOF"
+1539846738426	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1539846739454	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\think\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14684] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539846742785	Marionette	INFO	Listening on port 17448
+1539846743291	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539846743349	Marionette	DEBUG	Register listener.js for window 4294967297
+1539846743495	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1539846744753	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1539846744754	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1539846744991	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846745080	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846745357	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846746321	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846746321	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539846746645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846746714	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539846749756	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1539847077815	geckodriver	INFO	geckodriver 0.19.0
+1539847077845	geckodriver	INFO	Listening on 127.0.0.1:17555
+1539847080915	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\Personal\\Temp\\rust_mozprofile.F1lmL4QRLF72"
+1539847081442	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1539847082496	Marionette	INFO	Enabled via --marionette
+1539847085890	Marionette	INFO	Listening on port 17563
+1539847086285	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539847086339	Marionette	DEBUG	Register listener.js for window 4294967297
+1539847086473	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1539847087657	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1539847087657	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1539847087936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847088028	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847088274	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847089184	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847089185	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847089445	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539847089741	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539847092778	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\think\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14700] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539847121691	geckodriver	INFO	geckodriver 0.19.0
+1539847121731	geckodriver	INFO	Listening on 127.0.0.1:17725
+1539847124796	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "D:\\Personal\\Temp\\rust_mozprofile.hqwvZ94njUcJ"
+1539847125299	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1539847126231	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\think\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14696] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14696] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539847129571	Marionette	INFO	Listening on port 17735
+1539847130154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539847130215	Marionette	DEBUG	Register listener.js for window 4294967297
+1539847130362	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1539847131455	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1539847131456	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1539847131721	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847131778	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847131975	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847132862	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847132862	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:8032/mymovie/admin.php/Login/index.html"
+1539847133104	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539847133427	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8032/mymovie/admin.php/Index/index.html"
+1539847136463	Marionette	INFO	New connections will no longer be accepted
